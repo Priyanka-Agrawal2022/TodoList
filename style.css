@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+form {
+    background-color: #f0f0f0;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.icons {
+    font-size: 1.5rem;
+    color: rgb(143, 119, 176);
+    margin: 0 10px;
+}
+
+#desc {
+    font-size: 1.2rem;
+    border: none;
+    background-color: #f0f0f0;
+    width: 90%;
+    height: 40px;
+}
+
+#add {
+    border: none;
+    cursor: pointer;
+}
+
+#todolist-container {
+    width: 60%;
+    margin: 12px auto;
+}
+
+#count {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#todolist {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+li div p {
+    margin: 0;
+}
+
+li div input {
+    cursor: pointer;
+}
+
+li div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete {
+    color: rgb(143, 119, 176);
+    margin-right: 12px;
+    cursor: pointer;
+}
